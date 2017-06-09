@@ -3,4 +3,11 @@
   <groupId>com.yj</groupId>
   <artifactId>GOFlearning</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+    </dependencies>
 </project>

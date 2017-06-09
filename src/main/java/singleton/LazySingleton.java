@@ -29,7 +29,7 @@ public class LazySingleton {
         if (instance == null) {
             synchronized (LazySingleton.class) {
                 if (instance == null) {
-                    return new LazySingleton();
+                    return instance = new LazySingleton();
                 }
             }
         }

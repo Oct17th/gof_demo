@@ -27,7 +27,7 @@ public class HungrySingleton {
      *
      * @return
      */
-    public HungrySingleton getInstance() {
+    public static HungrySingleton getInstance() {
         return instance;
     }
 }

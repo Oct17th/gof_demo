@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gof_demo" />
         <module name="GOFlearning" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gof_demo" target="1.5" />
       <module name="GOFlearning" target="1.5" />
     </bytecodeTargetLevel>
   </component>
